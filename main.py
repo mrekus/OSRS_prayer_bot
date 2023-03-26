@@ -12,7 +12,7 @@ def main():
                 click_inventory()
                 click_altar()
                 time.sleep(round(uniform(0.2, 0.3), 2))
-                main()
+            main()
 
 
 def click_inventory(x=randint(1569, 1596), y=randint(454, 477)):
