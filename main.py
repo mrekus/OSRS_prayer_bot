@@ -30,5 +30,4 @@ def click_altar(x=randint(1006, 1152), y=randint(256, 341)):
 
 
 if __name__ == "__main__":
-    time.sleep(5)
     main()
