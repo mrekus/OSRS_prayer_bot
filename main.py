@@ -1,7 +1,7 @@
 import pyautogui
 import keyboard
 import time
-from random import uniform, randint
+from random import uniform
 
 
 def main():
