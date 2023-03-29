@@ -1,4 +1,3 @@
-import win32api
 import pyautogui
 import keyboard
 import time
