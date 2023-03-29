@@ -17,13 +17,13 @@ def main():
 
 def click_inventory():
     pyautogui.move(-60, 0)
-    time.sleep(round(uniform(0.08, 0.12), 2))
+    time.sleep(round(uniform(0.06, 0.08), 2))
     pyautogui.click(clicks=1, interval=(round(uniform(0.02, 0.05), 2)))
 
 
 def click_altar():
     pyautogui.move(60, 0)
-    time.sleep(round(uniform(0.08, 0.12), 2))
+    time.sleep(round(uniform(0.06, 0.08), 2))
     pyautogui.click(clicks=1, interval=(round(uniform(0.02, 0.05), 2)))
 
 
